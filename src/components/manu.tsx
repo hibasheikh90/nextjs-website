@@ -73,7 +73,7 @@ function Manu() {
       </div>
       <div className="text-center">
       <button
-        className="px-4 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-blue-300"
+        className="px-4 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-yellow-300"
       >
         Order Now
       </button>
