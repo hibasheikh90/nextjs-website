@@ -5,7 +5,7 @@ function Manu() {
   return (
     <div>
       <h2 className=" felx justify-center font-bold text-6xl text-center text-black p-8">
-        Our Delicious Manu
+        Our Delicious Menu
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center mx-4 gap-3">
         <div className="">
@@ -17,7 +17,7 @@ function Manu() {
             height={40}
 
           />
-          <p className="font-bold text-4xl p-5">Chicken Burger </p>
+          <p className="font-bold text-4xl p-5">Chicken Burger<span className="text-orange-500 ">$3.99</span> </p>
         </div>
         <div>
           <Image
@@ -27,7 +27,7 @@ function Manu() {
             width={500}
             height={40}
           />
-          <p className="font-bold text-4xl p-5">Crispy Frise</p>
+          <p className="font-bold text-4xl p-5">Crispy Frise<span className="text-orange-500">$1.99</span></p>
         </div>
         <div>
           <Image
@@ -37,7 +37,7 @@ function Manu() {
             width={500}
             height={40}
           />
-          <p className="font-bold text-4xl p-4">Mayo Sandwich</p>
+          <p className="font-bold text-4xl p-4">Mayo Sandwich<span className="text-orange-500">$4.99</span></p>
         </div>
 
         <div>
@@ -48,7 +48,7 @@ function Manu() {
             width={500}
             height={600}
           />
-          <p className="font-bold text-4xl p-4">Crispy Mayo Roll</p>
+          <p className="font-bold text-4xl p-4">Crispy Mayo Roll<span className="text-orange-500">$3.50</span></p>
         </div>
         <div>
           <Image
@@ -58,7 +58,7 @@ function Manu() {
             width={500}
             height={40}
           />
-          <p className="font-bold text-4xl p-4">Cheesey Pizza</p>
+          <p className="font-bold text-4xl p-4">Cheesey Pizza<span className="text-orange-500">$7.50</span></p>
         </div>
         <div>
           <Image
@@ -68,7 +68,7 @@ function Manu() {
             width={500}
             height={40}
           />
-          <p className="font-bold text-4xl p-4">Beaf Burger</p>
+          <p className="font-bold text-4xl p-4">Beef Burger<span className="text-orange-500">$5.99</span></p>
         </div>
       </div>
     </div>
